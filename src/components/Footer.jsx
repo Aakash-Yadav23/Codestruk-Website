@@ -8,9 +8,8 @@ import { AiOutlineGooglePlus } from "react-icons/ai";
 import { SiInstagram } from "react-icons/si";
 
 const Footer = () => {
-
   return (
-    <div >
+    <div>
       <div className="relative">
         <svg
           className="absolute top-0 w-full -z-1"
@@ -32,17 +31,22 @@ const Footer = () => {
 
             <div className="">
               <div className="flex">
-                <img src="/images/logo.jpg" alt="Logo" className="w-[142px] h-[36.91px] " />
+                <img
+                  src="/images/logo.jpg"
+                  alt="Logo"
+                  className="w-[142px] h-[36.91px] "
+                />
               </div>
             </div>
             <div className="mt-10 mb-5 ">
               <div className="mr-2 w-full">
-                Design amazing digital experiences that create more happy in the world.
+                Design amazing digital experiences that create more happy in the
+                world.
               </div>
             </div>
           </div>
           <div className="md:ml-16 grid grid-cols-3 leading-10">
-            <div className="font-bold">
+            {/* <div className="font-bold">
               <div className="px-4 block">
                 Product
               </div>
@@ -64,36 +68,19 @@ const Footer = () => {
               <NavLink to="/events" className="text-violet-600 px-4 block">
                 Releases
               </NavLink>
-            </div>
+            </div> */}
             <div className="font-bold">
-              <div className="px-4 block">
-                Resources
-              </div>
               <NavLink to="/store" className="text-violet-600 px-4 block">
                 Blog
               </NavLink>
               <NavLink to="/vlog" className="text-violet-600 px-4 block">
                 Newsletter
               </NavLink>
-              <NavLink to="/blog" className="text-violet-600 px-4 block">
-                Events
-              </NavLink>
-              <NavLink to="/contact" className="whitespace-nowrap text-violet-600 px-4 block">
-                Help center
-              </NavLink>
-              <NavLink to="/leagueinfo" className="text-violet-600 px-4 block">
-                Tutorials
-              </NavLink>
-              <NavLink to="/leagueteam" className="text-violet-600 px-4 block">
-                Support
-              </NavLink>
             </div>
           </div>
 
           <div className="md:ml-4">
-            <div className="mb-4 text-sm font-bold">
-              Stay up to date
-            </div>
+            <div className="mb-4 text-sm font-bold">Stay up to date</div>
             <div className="flex">
               <div className="flex items-center">
                 <input
@@ -107,11 +94,12 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
         </div>
         <div className="flex flex-col md:flex-row justify-between  px-4 md:px-10 lg:px-20 py-20">
           <div className="mb-4 md:mb-0">
-            <span className="mr-10 whitespace-nowrap">@2024 codestuk. All rights reserved.</span>
+            <span className="mr-10 whitespace-nowrap">
+              @2024 codestuk. All rights reserved.
+            </span>
           </div>
           <div>
             <span className="mr-10">Terms</span>
@@ -119,7 +107,6 @@ const Footer = () => {
             <span className="mr-2">Cookies</span>
           </div>
         </div>
-
       </div>
     </div>
   );
