@@ -1,5 +1,5 @@
 import React from "react";
-import mainBg from "../assets/bg-2.png";
+import mainBg from "../assets/bg-1.png";
 import discoveryPhaseBg from "../assets/Artwork 1.png";
 import scopingPhaseBg from "../assets/Artwork 2.png";
 import planningPhaseBg from "../assets/Artwork 3.png";
